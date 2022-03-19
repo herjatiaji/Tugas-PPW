@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(208, 46%, 89%);
+    font-family: 'Manrope', sans-serif;
+    display:flex;
+    flex-direction:column;}
+@media all and (min-width: 375px) {
+.box{
+    background-color:hsl(0, 0%, 95%);
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    height:700px;
+    border-radius: 20px;
+    margin:30px 30px;
+    box-shadow: 14px 20px 38px -30px rgba(15, 15, 15, 0.75);
+    overflow:hidden;
+}
+.left-content img{
+    width:300px;
+    height:300px;
+}
+.right-content{
+    padding:20px;
+    padding-left:0px;
+    padding-top:0px;
+        
+}
+.header{
+    font-family: 'Manrope';
+    font-weight:800;
+    font-size:18px;
+    color:hsl(217, 19%, 35%);
+    margin: 30px;
+}
+.paragraph{
+    font-family: 'Manrope';
+    font-family:500;
+    font-size:13px;
+    color:hsl(214, 17%, 51%);
+    margin:30px;
+}
+.displays{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin:30px;
+}
+.name{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Manrope', sans-serif;
+    font-size:12px ;
+}
+.name h4{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    padding-top: 0px;
+    margin: 0px;
+    
+} 
+.name p{
+    display:flex;
+    font-family: 'Manrope', sans-serif;
+    font-size:12px ;
+    color:hsl(218, 23%, 75%);
+    margin:0px;
+}
+.profpics img{
+    width:50px;
+    height:50px;
+    clip-path: circle(50% at 50% 50%);
+    margin:0px;
+    margin-top: 0px;
+    margin-right:10px;
+}
+ .share-button{
+    margin-right: 4%;
+    background-color: hsl(210, 46%, 95%);
+    border-radius:100px;
+    padding:10px;
+    text-decoration:none;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    margin-left: 60px;
+} 
+}
+@media all and (min-width:1440px) {
+
+    .space {
+        height: 30%;
+
+    }
+    .box{
+        background-color: hsl(0, 0%, 97%);
+        display:flex;
+        flex-direction:row;
+        width:900px;
+        height:370px;
+        border-radius: 20px;
+        margin:200px 400px;
+        box-shadow: 14px 20px 38px -30px rgba(0,0,0,0.75);
+        overflow: hidden;
+    }
+    .left-content img{
+        width:370px;
+        height:370px;
+       
+        margin-right:10px;
+    }
+    .right-content{
+        padding:10px;
+    }
+    .header {
+        font-family: 'Manrope', sans-serif;
+        font-weight:700;
+        font-size: 23px;
+        color:hsl(217, 19%, 35%);
+        margin-left: 20px;
+    }
+    .paragraph{
+        font-family: 'Manrope';
+        font-weight:700;
+        font-size:15px;
+        color: hsl(214, 17%, 51%);
+        margin-right:10px;
+        margin-top:30px;
+        margin-bottom:20px;
+    }
+    
+    .displays{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        
+    }
+    .name h4{
+        color: hsl(217, 19%, 35%);
+        font-weight: 700;
+        margin: 0px;
+        padding-top: 0px;
+    } 
+    .name p{
+        display:flex;
+        flex-direction:column;
+        color:hsl(218, 23%, 75%);
+        font-family: 'Manrope', sans-serif;
+        margin: 0px;
+    }
+    .profpics img{
+        width:50px;
+        height:50px;
+        clip-path: circle(50% at 50% 50%);
+        margin:0px;
+        margin-top: 0px;
+        margin-right:10px;
+    }
+    .share-button{
+            margin-right: 4%;
+            background-color: hsl(210, 46%, 95%);
+            border-radius:100px;
+            padding:10px;
+            text-decoration:none;
+            cursor:pointer;
+            outline: none;
+            border: none;
+            margin-left: 200px;
+         
+    } 
+}
